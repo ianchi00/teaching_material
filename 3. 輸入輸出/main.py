@@ -11,14 +11,6 @@ print("第二個print()。")
 print("更改end為空", end="")
 print("第二個print()。")
 
-#使用 + 串連字串, 使用str(轉換資料成str格式)
-str1 = "一"
-str2 = "二"
-str3 = "三"
-int4 = 4
-print("串連字串：" + str1 + str2 + str3)
-print("串連字串及數字：" + str1 + str2 + str3 + str(int4))
-
 # 反斜線輸出特殊字元
 # 換行
 print("換\n行")
@@ -34,3 +26,6 @@ input_num = input("請輸入一個數字：")
 print("你輸入的數字是：", input_num, "  類型：" ,type(input_num))
 input_str = input("請輸入一個字串：")
 print("你輸入的字串是：", input_str, "  類型：" ,type(input_str))
+
+
+

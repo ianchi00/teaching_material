@@ -19,19 +19,31 @@ print("index -1: ", cafe[-1]) # 最後一個字元
 
 print("="*10)
 # 取得字串
+print(cafe[0])
 print(cafe[:])
 print(cafe[:5])
 print(cafe[6:])
 print(cafe[3:10])
 
 print("="*10)
-# 取得字串長度 str.len()
+# 取得字串長度 len()
 print(len(cafe))
+
 
 print("="*10)
 # 替換字串內容 str.replace()
 name = "安＿妮雅"
-print(name.replace("＿", " "))
+name = name.replace("＿", " ")
+print(name)
+
+print("="*10)
+# 使用 + 串連字串, 使用str(轉換資料成str格式)
+str1 = "一"
+str2 = "二"
+str3 = "三"
+int4 = 4
+print("串連字串：" + str1 + str2 + str3)
+print("串連字串及數字：" + str1 + str2 + str3 + str(int4))
 
 print("="*10)
 # 去除頭尾字符 str.strip()
@@ -70,7 +82,7 @@ name = "LOUISA Coffee"
 name_list = name.split(' ')
 print(name_list)
 menu = "Americano|Latte|Cappuccino|Caramel|Hazelnut"
-menu_list = menu.split()
+menu_list = menu.split('|')
 print(menu_list)
 
 

@@ -6,7 +6,7 @@ age = 18
 minus_int = -18
 print(student_number, age, minus_int)
 
-# float 浮點數 (包含正整數、負整數)
+# float 浮點數 (包含正、負)
 print("----- float 浮點數 -----")
 height = 174.5
 weight = 65.3
