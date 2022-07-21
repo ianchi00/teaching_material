@@ -1,7 +1,4 @@
 # 單行讀取/寫入
-from cmath import e
-
-
 with open('./7. 文檔操作/單行讀寫測試.txt','w') as f:
     f.write('如果可以')
 

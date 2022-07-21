@@ -35,7 +35,7 @@ print('='*10)
 # break
 for i in range(10):
     if i == 7:
-        print(i, ":i是7, 終止迴圈")
+        print(i, ":i==7, 終止迴圈")
         break
     if i % 2 == 0:
         print(i,  ":是偶數")

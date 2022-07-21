@@ -9,6 +9,9 @@ staff_info = [
 ]
 print(staff_info)
 
+# 取得二維列表
+print(staff_info[0][1])
+
 print('='*10)
 # 打印二維列表
 # 注意：取得二維列表時，第一個取得的元素會是最外圈取進來的元素(每一筆資料)

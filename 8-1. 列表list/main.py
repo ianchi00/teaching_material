@@ -18,15 +18,32 @@ print("lottery_num:", len(lottery_num))
 print('='*10)
 
 # 添加、修改列表元素
-# 讀取列表元素
+# 取得列表元素
 print("fruit的第1個元素", fruit[0])
 print("fruit的第2個元素", fruit[1])
 print("lottery_num的第2到第4個元素", lottery_num[1:4])
+
 
 print('='*10)
 # 修改列表元素
 fruit[0] = "青蘋果"
 print(fruit)
+
+print('='*10)
+# 特別注意
+# 若使用for in 直接取得列表內元素
+# 取得的元素會是複製的版本
+# 若要修改原本列表內的元素需要使用 [] 取得原先列表的元素
+# 舉例
+for i in lottery_num:
+    i = 0
+print(lottery_num)
+for i in range(len(lottery_num)):
+    lottery_num[i] = 0
+print(lottery_num)
+
+lottery_num = [19,24,17,22,26]
+
 
 print('='*10)
 # 使用內建函式append 添加單一元素至列表
